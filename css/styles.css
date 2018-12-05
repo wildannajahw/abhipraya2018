@@ -138,3 +138,9 @@ canvas {
 .ulfoot a{
     color: white;
 }
+#garis{
+    border-top: 2px solid grey;
+    margin: 0 50px;
+    color: aliceblue;
+    padding: 0;
+}
