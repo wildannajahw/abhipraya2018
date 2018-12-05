@@ -1,14 +1,89 @@
+body{
+    background-color: #202020;
+}
+#all{
+    margin: 0;
+    padding: 0;
+}
+#home1 {
+    margin-top: -15%;
+    text-align: center;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    width: 100%;
+}
+#clockdiv {
+    padding-top: 250px;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 40px;
+    text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
+    
+}
+#clockdiv > div{
+    
+    box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
+	padding: 10px;
+    margin: 0 7px;
+	border-radius: 3px;
+	background: #1167b1;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+    font-size: 70px;
+	border-radius: 3px;
+	background: #03254c;
+	display: inline-block;
+}
+
+h1{
+  color: #fff;
+  font-weight: 100;
+  font-size: 60px;
+  margin: 40px 0px 20px;
+    font-family: 'Electrolize', sans-serif;
+    
+}
+h4{
+    font-size: 20px;
+}
+.smalltext{
+	padding-top: 5px;
+	font-size: 17px;
+}
+#first{
+    margin-top: 20px;
+    font-size: 40px;
+}
+#tulis{
+    padding-bottom: 5%;
+}
+
+
+
+
+
 
 canvas {
 	background-color:#FFF;
 	border:#999 1px solid;
 }
-
+#gambar{
+    padding-top: 1rem;
+}
 .row{
     width: 100%;
 	padding-top: 1rem;
     
-    font-size: 150%;
+    font-size: 15px;
+}
+.gambar{
+    margin-top: 10px;
 }
 
 .ribbon {	
@@ -18,9 +93,8 @@ canvas {
     align-items: center;
 	justify-content:center;
 	background-color: #ffc107;
-	padding-top:2rem;
-	padding-bottom:2rem;
-    font-size: 220%;
+	padding-bottom:1rem;
+    font-size: 25px;
 	color:#FFF;
 }
 
@@ -33,224 +107,34 @@ canvas {
 #btnsave{
 	width:20rem;
 	font-weight: bolder;
-    
+    background-color: #2a9df4;
+    color: #fff; 
+    margin-bottom: 28px;
     font-size: 120%;
 }
 
 
 
 
-#all{
-    margin: 0;
-    padding: 0;
-}
 #navbar{
     background: rgba(0, 0, 0, 0.3);
 }
 #kanan{
     width: 100%;
     color: aqua;
-    font-size: 150%;
+    font-size: 15px;
 }
-#home1 {
-    margin-top: -15%;
-    text-align: center;
-    background-image: url(../images/2.jpg);
-    background-size: cover;
-    width: 100%;
+#footer{
+    margin: 0px 50px 50px 50px;
+    background-color: #202020;
+    list-style-type: none;
 }
-.anniv {
-    margin-top: 18%;
+.ulfoot li{
+    color: grey;
+    list-style-type: none;
+    font-size: 17px;
+    padding: 2px;
 }
-#tulis{
-    padding-bottom: 5%;
+.ulfoot a{
+    color: white;
 }
-#first{
-    margin-top: 5%;
-}
-h1{
-  color: #fff;
-  font-weight: 100;
-  font-size: 60px;
-  margin: 40px 0px 20px;
-    font-family: 'Electrolize', sans-serif;
-    
-}
-#clockdiv {
-    padding-top: 15%;
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 550%;
-    text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-    
-}
-#clockdiv > div{
-    
-    box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-	padding: 10px;
-	border-radius: 3px;
-	background: #1167b1;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 15px;
-    font-size: 150%;
-	border-radius: 3px;
-	background: #03254c;
-	display: inline-block;
-}
-
-.smalltext{
-	padding-top: 5px;
-	font-size: 40%;
-}
-@media screen and (max-width: 768px) {
-  
-h1{
-  color: #fff;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
-    font-family: 'Electrolize', sans-serif;
-    
-}
-
-#clockdiv {
-    padding-top: 15%;
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 550%;
-    text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-    
-    
-}
-
-#clockdiv > div{
-    
-    box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-	padding: 10px;
-	border-radius: 3px;
-	background: #1167b1;
-	display: inline-block;
-}
-#ulfoot{
-    color: aliceblue;    
-}
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-@media screen and (max-width: 768px) {
-
-    #clockdiv {
-        width: 100%;
-        padding-top: 15%;
-        font-family: sans-serif;
-        color: #fff;
-        display: inline-block;
-        font-weight: 100;
-        text-align: center;
-        font-size: 40px;
-        text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-
-    }
-
-    #clockdiv > div{
-
-        box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-        padding: 3px;
-        border-radius: 3px;
-        background: #1167b1;
-        display: inline-block;
-    }
-
-    #clockdiv div > span{
-        padding: 15px;
-        border-radius: 3px;
-        background: #03254c;
-        display: inline-block;
-    }
-
-    .smalltext{
-        padding-top: 5px;
-        font-size: 7px;
-    }
-    #first{
-        font-size: 10px;
-    }
-    *{
-    font-size: 60%;
-    }
-    canvas {
-        background-color:#FFF;
-        border:#999 1px solid;
-    }
-
-    .row{
-        margin-top: 1rem;
-    }
-
-    .ribbon {	
-        width:100%;
-        margin: 0;
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        background-color: #ffc107;
-        padding-top:1rem;
-        padding-bottom:1rem;
-        font-size:1.5rem;
-        color:#FFF;
-    }
-
-    #btnphoto{
-        width:16rem;
-    }
-
-    #btnsave{
-        width:20rem;
-        font-weight: bolder;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
