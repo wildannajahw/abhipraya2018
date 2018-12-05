@@ -79,8 +79,8 @@ canvas {
 .row{
     width: 100%;
 	padding-top: 1rem;
-    
-    font-size: 15px;
+    margin: 0;
+    font-size: 14px;
 }
 .gambar{
     margin-top: 10px;
@@ -93,11 +93,14 @@ canvas {
     align-items: center;
 	justify-content:center;
 	background-color: #ffc107;
-	padding-bottom:1rem;
     font-size: 25px;
 	color:#FFF;
+    padding-bottom: 1rem;
 }
-
+.kosong{
+    padding: 0;
+    margin: 0;
+}
 #btnphoto{
 	width:16rem;
     
@@ -112,9 +115,6 @@ canvas {
     margin-bottom: 28px;
     font-size: 120%;
 }
-
-
-
 
 #navbar{
     background: rgba(0, 0, 0, 0.3);
