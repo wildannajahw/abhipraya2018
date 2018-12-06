@@ -483,11 +483,8 @@ canvas {
         color: white;
     }
     #garis{
-        padding-left: 20px;
         margin: 0;
         color: aliceblue;
     }
-    #garis p{
-        
-    }
+
 }
