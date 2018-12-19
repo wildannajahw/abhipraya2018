@@ -205,14 +205,14 @@ canvas {
 
     }
     #clockdiv > div{
-
+        padding: 5px 15px;
         display: inline-block;
     }
 
     #clockdiv div > span{
         
         padding: 10px;
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 3px;
         display: inline-block;
     }
@@ -293,16 +293,20 @@ canvas {
 
     }
     #clockdiv > div{
-    
+        
+        padding: 2px 10px;
+        font-size: 20px;
         display: inline-block;
+        margin: 1px;
     }
 
     #clockdiv div > span{
         
         padding: 5px;
-        font-size: 23px;
+        font-size: 25px;
         border-radius: 3px;
         display: inline-block;
+        padding-bottom: 0;
     }
     h1{
       color: #fff;
@@ -320,7 +324,7 @@ canvas {
     }
     
     .smalltext{
-        padding-top: 5px;
+        padding: 0;
         font-size: 8px;
     }
     #first{
