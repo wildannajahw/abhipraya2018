@@ -26,18 +26,15 @@ body{
 #clockdiv > div{
     
     box-shadow: 0 0 5px #000, 0 0 10px #DDBCA4, 0 0 20px #DDBCA4, 0 0 30px #DDBCA4, 0 0 40px #DDBCA4, 0 0 55px #DDBCA4, 0 0 75px #DDBCA4;
-	padding: 10px;
-    margin: 0 7px;
-	border-radius: 3px;
+	padding: 10px 25px;
+    margin: 10px;
+	border-radius: 50%;
 	background: #DDBCA4;
 	display: inline-block;
 }
 
 #clockdiv div > span{
-	padding: 15px;
     font-size: 50px;
-	border-radius: 3px;
-	background: #659194;
 	display: inline-block;
 }
 
@@ -209,7 +206,6 @@ canvas {
     }
     #clockdiv > div{
 
-        border-radius: 3px;
         display: inline-block;
     }
 
@@ -270,7 +266,7 @@ canvas {
 
 
 
-@media only screen and  (max-width : 520px){
+@media only screen and  (max-width : 320px){
      
     body{
         background-color: #202020;
@@ -298,7 +294,6 @@ canvas {
     }
     #clockdiv > div{
     
-        border-radius: 3px;
         display: inline-block;
     }
 
