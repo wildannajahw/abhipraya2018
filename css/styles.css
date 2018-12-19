@@ -12,7 +12,7 @@ body{
     width: 100%;
 }
 #clockdiv {
-    padding-top: 50px;
+    padding-top: 1%;
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -59,7 +59,7 @@ h4{
 #first{
     font-size: 30px;
     margin-top: 0;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 .second h1{
     font-size: 30px;
@@ -179,7 +179,9 @@ canvas {
 .follow{
     padding-left: 5%;
 }
-@media only screen and  (max-width : 1024px){
+
+
+@media only screen and  (max-width : 480px){
      
     body{
         background-color: #202020;
@@ -207,7 +209,6 @@ canvas {
     }
     #clockdiv > div{
 
-        padding: 10px;
         border-radius: 3px;
         display: inline-block;
     }
@@ -228,17 +229,16 @@ canvas {
 
     }
     h4{
-        font-size: 15px;
+        font-size: 10px;
     }
     .smalltext{
         padding-top: 5px;
         font-size: 12px;
     }
     #first{
-        font-size: 20px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
-        margin-top: 5%;
         margin-bottom: 5%;
     }
     
@@ -264,11 +264,13 @@ canvas {
     font-size: 15px;
 	color:#FFF;
     padding-bottom: 1rem;
-}
+    }\
 
 }
 
-@media only screen and  (max-width : 520px){
+
+
+@media only screen and  (max-width : 320px){
      
     body{
         background-color: #202020;
@@ -278,7 +280,7 @@ canvas {
         padding: 0;
     }
     #home1 {
-        padding-top: 50px;
+        padding-top: 10%;
         text-align: center;
         background-size: cover;
         width: 100%;
@@ -295,43 +297,42 @@ canvas {
 
     }
     #clockdiv > div{
-
-        padding: 10px;
+    
         border-radius: 3px;
         display: inline-block;
     }
 
     #clockdiv div > span{
         
-        padding: 10px;
-        font-size: 20px;
+        padding: 5px;
+        font-size: 23px;
         border-radius: 3px;
         display: inline-block;
     }
     h1{
       color: #fff;
       font-weight: 100;
-      font-size: 10px;
+      font-size: 15px;
       margin: 20px 0px;
         font-family:'Carrois Gothic', sans-serif;
-        margin-bottom: 100px;
-
+    
     }
-    #first{
-        margin-bottom: 100px;
+    .him{
+        padding: 2px 5px;
     }
     h4{
-        font-size: 8px;
+        font-size: 10px;
     }
+    
     .smalltext{
         padding-top: 5px;
-        font-size: 12px;
+        font-size: 8px;
     }
     #first{
-        font-size: 10px;
+        font-size: 15px;
         margin: 0;
         padding: 0;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-bottom: 5%;
     }
     
@@ -345,10 +346,21 @@ canvas {
         font-size: 70%;
     }
     .second{
-        margin-top: 0px;
+        margin-top: 100px;
     }
-    #footer li{
-        font-size: 90%;
+    .ribbon {	
+	width:100%;
+	margin: 0;
+	display:flex;
+    align-items: center;
+	justify-content:center;
+	background-color: #ffc107;
+    font-size: 15px;
+	color:#FFF;
+    padding-bottom: 1rem;
+    }
+    .cd{
+       height: 50px;
     }
 
 }

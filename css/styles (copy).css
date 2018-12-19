@@ -11,7 +11,6 @@
     #home1 {
         margin-top: 0;
         text-align: center;
-        background-image: url(../images/2.jpg);
         background-size: cover;
         width: 100%;
     }
@@ -24,15 +23,11 @@
         text-align: center;
         font-size: 20px;
         padding-bottom: 10px;
-        text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
 
     }
     #clockdiv > div{
 
-        box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
-        padding: 10px;
         border-radius: 3px;
-        background: #1167b1;
         display: inline-block;
     }
 
@@ -41,7 +36,6 @@
         padding: 10px;
         font-size: 25px;
         border-radius: 3px;
-        background: #03254c;
         display: inline-block;
     }
     h1{
@@ -49,7 +43,7 @@
       font-weight: 100;
       font-size: 10px;
       margin: 20px 0px;
-        font-family: 'Electrolize', sans-serif;
+        font-family:'Carrois Gothic', sans-serif;
 
     }
     h4{
@@ -63,7 +57,10 @@
         font-size: 20px;
         margin: 0;
         padding: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
+    
     #tulis{
         padding-bottom: 5px;
     }
@@ -76,177 +73,87 @@
     .second{
         margin-top: 0px;
     }
-
-
-
-
-
-    canvas {
-        background-color:#FFF;
-        border:#999 1px solid;
-    }
-    #gambar{
-        padding-top: 1rem;
-    }
-    .row{
-        width: 100%;
-        padding-top: 1rem;
-        margin: 0;
-        font-size: 10px;
-    }
-    .gambar{
-        margin-top: 10px;
-    }
-
     .ribbon {	
-        width:100%;
-        margin: 0;
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        background-color: #ffc107;
-        font-size: 15px;
-        color:#FFF;
-        padding-bottom: 1rem;
-    }
-    .kosong{
-        padding: 0;
-        margin: 0;
-    }
-    #btnphoto{
-        width:16rem;
-
-        font-size: 12px;
-    }
-
-    #btnsave{
-        width:20rem;
-        font-weight: bolder;
-        background-color: #2a9df4;
-        color: #fff; 
-        margin-bottom: 28px;
-        font-size: 120%;
-    }
-
-    #navbar{
-        background: rgba(0, 0, 0, 0.3);
-    }
-    #kanan{
-        width: 100%;
-        color: aqua;
-        font-size: 15px;
-    }
-    #footer{
-        width: 100%;
-        margin: 0;
-        background-color: #202020;
-        list-style-type: none;
-    }
-    .ulfoot{
-        width: 180px;
-        padding: 0;
-        margin: 0;
-    }
-    .ulfoot li{
-        color: grey;
-        list-style-type: none;
-        font-size: 17px;
-    }
-    .ulfoot a{
-        color: white;
-    }
-    .ulfoots{
-        margin-left: -100px;
-        width: 193px;
-        padding: 0;
-        margin: 0;
-    }
-    .ulfoots li{
-        color: grey;
-        list-style-type: none;
-        font-size: 17px;
-    }
-    .ulfoots a{
-        color: white;
-    }
-    #garis{
-        border-top: 2px solid grey;
-        margin: 0;
-        color: aliceblue;
-        padding-left: 0px;
-        width: 100%;
+	width:100%;
+	margin: 0;
+	display:flex;
+    align-items: center;
+	justify-content:center;
+	background-color: #ffc107;
+    font-size: 15px;
+	color:#FFF;
+    padding-bottom: 1rem;
     }
 
 }
 
-@media only screen and (max-width: 540px){
-     body{
+@media only screen and  (max-width : 520px){
+     
+    body{
         background-color: #202020;
     }
     #all{
         margin: 0;
         padding: 0;
-        padding-top: 100;
     }
     #home1 {
-        margin-top: -35%;
+        padding-top: 50px;
         text-align: center;
-        background-image: url(../images/2.jpg);
         background-size: cover;
         width: 100%;
     }
     #clockdiv {
-        padding-top: 200px;
+        padding-top: 20px;
         font-family: sans-serif;
         color: #fff;
         display: inline-block;
         font-weight: 100;
         text-align: center;
-        font-size: 20px;
-        padding-bottom: 100px;
-        text-shadow: 0 0 5px #000, 0 0 10px #2a9df4, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
+        padding-bottom: 10px;
 
     }
     #clockdiv > div{
 
-        box-shadow: 0 0 5px #000, 0 0 10px #1167b1, 0 0 20px #2a9df4, 0 0 30px #2a9df4, 0 0 40px #2a9df4, 0 0 55px #2a9df4, 0 0 75px #2a9df4;
+        padding: 10px;
         border-radius: 3px;
-        background: #1167b1;
         display: inline-block;
-        margin-top: 60px;
-        margin: 4;
-        padding: 5px;
     }
 
     #clockdiv div > span{
         
-        font-size: 25px;
-        border-radius: 3px;
-        background: #03254c;
-        display: inline-block;
         padding: 10px;
-        
+        border-radius: 3px;
+        display: inline-block;
     }
     h1{
       color: #fff;
       font-weight: 100;
       font-size: 10px;
-      margin: 40px 0px 20px;
-        font-family: 'Electrolize', sans-serif;
+      margin: 20px 0px;
+        font-family:'Carrois Gothic', sans-serif;
+        margin-bottom: 100px;
 
     }
+    #first{
+        margin-bottom: 100px;
+    }
     h4{
-        font-size: 15px;
+        font-size: 8px;
     }
     .smalltext{
         padding-top: 5px;
         font-size: 12px;
     }
     #first{
-        font-size: 20px;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
+    
     #tulis{
-        padding-bottom: 5%;
+        padding-bottom: 5px;
     }
     .second h1{
         font-size: 100%;
@@ -256,86 +163,9 @@
     }
     .second{
         margin-top: 0px;
-        margin-bottom: 53px;
+    }
+    #footer li{
+        font-size: 90%;
     }
 
-
-
-
-
-    canvas {
-        background-color:#FFF;
-        border:#999 1px solid;
-    }
-    #gambar{
-        padding-top: 1rem;
-    }
-    .row{
-        width: 100%;
-        padding-top: 1rem;
-        margin: 0;
-        font-size: 10px;
-    }
-    .gambar{
-        margin-top: 10px;
-    }
-
-    .ribbon {	
-        width:100%;
-        margin: 0;
-        display:flex;
-        align-items: center;
-        justify-content:center;
-        background-color: #ffc107;
-        font-size: 15px;
-        color:#FFF;
-        padding-bottom: 1rem;
-    }
-    .kosong{
-        padding: 0;
-        margin: 0;
-    }
-    #btnphoto{
-        width:16rem;
-
-        font-size: 12px;
-    }
-
-    #btnsave{
-        width:20rem;
-        font-weight: bolder;
-        background-color: #2a9df4;
-        color: #fff; 
-        margin-bottom: 28px;
-        font-size: 120%;
-    }
-
-    #navbar{
-        background: rgba(0, 0, 0, 0.3);
-    }
-    #kanan{
-        width: 100%;
-        color: aqua;
-        font-size: 15px;
-    }
-    #footer{
-        margin: 0;
-        background-color: #202020;
-        list-style-type: none;
-    }
-    .ulfoot li{
-        color: grey;
-        list-style-type: none;
-        font-size: 17px;
-        padding: 2px;
-    }
-    .ulfoot a{
-        color: white;
-    }
-    #garis{
-        border-top: 2px solid grey;
-        margin: 0;
-        color: aliceblue;
-        padding-left: 0px;
-    }
 }
