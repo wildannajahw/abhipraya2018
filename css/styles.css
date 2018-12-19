@@ -58,6 +58,7 @@ h4{
 }
 #first{
     font-size: 30px;
+    margin-top: 0;
     margin-bottom: 2%;
 }
 .second h1{
@@ -267,7 +268,7 @@ canvas {
 
 }
 
-@media only screen and  (max-width : 1024px){
+@media only screen and  (max-width : 520px){
      
     body{
         background-color: #202020;
@@ -277,7 +278,7 @@ canvas {
         padding: 0;
     }
     #home1 {
-        margin-top: 0;
+        padding-top: 50px;
         text-align: center;
         background-size: cover;
         width: 100%;
@@ -313,17 +314,21 @@ canvas {
       font-size: 10px;
       margin: 20px 0px;
         font-family:'Carrois Gothic', sans-serif;
+        margin-bottom: 100px;
 
     }
+    #first{
+        margin-bottom: 100px;
+    }
     h4{
-        font-size: 15px;
+        font-size: 8px;
     }
     .smalltext{
         padding-top: 5px;
         font-size: 12px;
     }
     #first{
-        font-size: 20px;
+        font-size: 10px;
         margin: 0;
         padding: 0;
         margin-top: 5%;
