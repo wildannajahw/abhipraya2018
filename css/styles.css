@@ -7,6 +7,14 @@ body{
 }
 #home1 {
     text-align: center;
+    background-image: url(../images/Backround.png);
+    background-size: cover;
+    width: 100%;
+}
+#home2 {
+    text-align: center;
+    background-image: url(../images/Bawah.png);
+    background-size: cover;
     width: 100%;
 }
 #clockdiv {
